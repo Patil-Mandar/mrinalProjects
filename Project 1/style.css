@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul {
+	list-style: none;
+}
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	margin: 25px;
+}
+.logo a {
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.nav-bar ul li {
+	display: inline-block;
+	padding: 10px;
+}
+.nav-bar ul li a {
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 10px;
+	border-radius: 50px;
+	transition: .5s linear;
+}
+.nav-bar ul li a:hover {
+	background-color: #31E1F7;
+
+}
+.content-hero {
+	margin-top: 4rem; 
+}
+.cont-img > img {
+	width: 450px;
+	float: right;
+	margin-right: 60px;
+
+}
+.cont-text {
+	max-width: 60%;
+	padding: 70px;
+}
+.cont-text h1 {
+	font-size: 2.65rem;
+	font-family: sans-serif;
+}
+.cont-text p {
+	font-size: 1.2rem;
+	padding: 20px 0 30px 0;
+}
+.cont-text input {
+	padding: 12px;
+	padding-right: 70px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	text-align: left;
+	font-size: 16px;
+
+}
+.cont-text button {
+	padding: 12px 60px;
+	border-radius: 5px;
+	margin-left: 5px;
+	color: #fff;
+	font-weight: bolder;
+	border: 1px solid #3120E0;
+	background-color: #3120E0;
+	cursor: pointer;
+	transition: .3s ease;
+	font-size: 16px;
+}
+.cont-text button:hover {
+	background-color: #fff;
+	color: #3120E0;
+	border: 1px solid #3120E0;
+}
+
+svg {
+	margin-top: -10px;
+}
+.mid {
+	margin-top: -5px;
+	background-color: #f3f4f5;
+}
+.cont-img .pad img {
+	margin-top: 50px;
+	width: 450px;
+	float: right;
+	margin-right: 60px;
+}
+.mid .cont-text {
+	max-width: %;
+}
+.mid .cont-text button {
+	background-color: transparent;
+	color: #000;
+	cursor: pointer;
+}
+.mid .cont-text button a {
+	color: #3120E0;
+}
+.testimonial {
+	max-width: 90%;
+	max-height: 40%;
+	/*background-color: #E8DFCA ;*/
+	box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.43);
+	display: flex;
+	border-radius: 20px;
+	margin: auto;
+	/*font-family: sans-serif;*/
+	cursor: pointer;
+	transition: 0.7s;
+}
+.testimonial:hover{
+	transform: trasnslateY(45px); 
+}
+.testimonial .image-container img {
+	width: 350px;
+	padding: 10px;
+	border-radius: 10%;
+}
+.testimonial .text-container {
+	margin: auto;	
+	padding: 50px;
+}
+.text-container h1 {
+	font-family: sans-serif;
+}
+.testimonial .text-container p{
+	padding-top: 10px;
+	line-height: 20px;
+	font-family: sans-serif;
+}
+
