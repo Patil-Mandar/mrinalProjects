@@ -1,4 +1,4 @@
-# mrinalProjects
+# MrinalProjects
 this Repo will be containing the Projects which I completed for Practise
 There will be Number of projects which will be Hosted in through GitHub and the Links of the Projects will be Linked.. 
 
