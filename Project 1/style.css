@@ -3,27 +3,33 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-a{
+
+a {
 	text-decoration: none;
 	color: #000;
 }
+
 ul {
 	list-style: none;
 }
+
 .head {
 	display: flex;
 	align-items: center;
-	justify-content: space-between; 
+	justify-content: space-between;
 	margin: 25px;
 }
+
 .logo a {
 	font-family: sans-serif;
 	cursor: pointer;
 }
+
 .nav-bar ul li {
 	display: inline-block;
 	padding: 10px;
 }
+
 .nav-bar ul li a {
 	font-size: 20px;
 	font-family: sans-serif;
@@ -31,31 +37,38 @@ ul {
 	border-radius: 50px;
 	transition: .5s linear;
 }
+
 .nav-bar ul li a:hover {
 	background-color: #31E1F7;
 
 }
+
 .content-hero {
-	margin-top: 4rem; 
+	margin-top: 4rem;
 }
-.cont-img > img {
+
+.cont-img>img {
 	width: 450px;
 	float: right;
 	margin-right: 60px;
 
 }
+
 .cont-text {
 	max-width: 60%;
 	padding: 70px;
 }
+
 .cont-text h1 {
 	font-size: 2.65rem;
 	font-family: sans-serif;
 }
+
 .cont-text p {
 	font-size: 1.2rem;
 	padding: 20px 0 30px 0;
 }
+
 .cont-text input {
 	padding: 12px;
 	padding-right: 70px;
@@ -65,6 +78,7 @@ ul {
 	font-size: 16px;
 
 }
+
 .cont-text button {
 	padding: 12px 60px;
 	border-radius: 5px;
@@ -77,6 +91,7 @@ ul {
 	transition: .3s ease;
 	font-size: 16px;
 }
+
 .cont-text button:hover {
 	background-color: #fff;
 	color: #3120E0;
@@ -86,57 +101,214 @@ ul {
 svg {
 	margin-top: -10px;
 }
+
 .mid {
 	margin-top: -5px;
 	background-color: #f3f4f5;
 }
+
 .cont-img .pad img {
 	margin-top: 50px;
 	width: 450px;
 	float: right;
 	margin-right: 60px;
 }
-.mid .cont-text {
+
+/* .mid .cont-text {
 	max-width: %;
-}
+} */
+
 .mid .cont-text button {
 	background-color: transparent;
 	color: #000;
 	cursor: pointer;
 }
+
 .mid .cont-text button a {
 	color: #3120E0;
 }
+
 .testimonial {
 	max-width: 90%;
 	max-height: 40%;
 	/*background-color: #E8DFCA ;*/
-	box-shadow: 10px 10px 25px -6px rgba(0,0,0,0.43);
+	box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.43);
 	display: flex;
 	border-radius: 20px;
 	margin: auto;
-	/*font-family: sans-serif;*/
+	margin-bottom: 60px;
+	font-family: sans-serif;
 	cursor: pointer;
 	transition: 0.7s;
 }
-.testimonial:hover{
-	transform: trasnslateY(45px); 
+
+.testimonial:hover {
+	transform: trasnslateY(45px);
 }
+
 .testimonial .image-container img {
 	width: 350px;
 	padding: 10px;
 	border-radius: 10%;
 }
+
 .testimonial .text-container {
-	margin: auto;	
+	margin: auto;
 	padding: 50px;
 }
+
 .text-container h1 {
 	font-family: sans-serif;
 }
-.testimonial .text-container p{
+
+.testimonial .text-container p {
 	padding-top: 10px;
 	line-height: 20px;
 	font-family: sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	font-family: sans-serif;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: 100vw;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h3 {
+	font-size: 2.1rem;
+	font-weight: 500;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p {
+	max-width: 600px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 100;
+	color: #cacdd2;
+}
+
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+	margin: 0 10px;
+}
+
+.socials a {
+	text-decoration: none;
+	color: #fff;
+	border: 1.1px solid white;
+	padding: 5px;
+
+	border-radius: 50%;
+
+}
+
+.socials a i {
+	font-size: 1.1rem;
+	width: 20px;
+
+
+	transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+	color: aqua;
+}
+
+.footer-bottom {
+	background: #000;
+	width: 100vw;
+	padding: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.footer-bottom p {
+	float: left;
+	font-size: 14px;
+	font-weight: 200;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom p a {
+	color: #44bae8;
+	font-size: 16px;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+.footer-bottom span {
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+.footer-menu {
+	float: right;
+
+}
+
+.footer-menu ul {
+	display: flex;
+}
+
+.footer-menu ul li {
+	padding-right: 10px;
+	font-weight: 200;
+	display: block;
+}
+
+.footer-menu ul li a {
+	color: #cfd2d6;
+	text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+	color: #27bcda;
+}
+
+@media (max-width:500px) {
+	.footer-menu ul {
+		display: flex;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+}
